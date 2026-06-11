@@ -1,0 +1,67 @@
+<local:MyCard  Margin="0,-6,0,12">
+     <StackPanel    Margin="24,35,24,15">
+          <TextBlock     HorizontalAlignment="Center"
+                         Margin="0,0,0,0"
+                         Foreground="{DynamicResource ColorBrush2}" 
+                         FontSize="20"
+                         Text="欢迎游玩梦时镜MC社区!"
+          />
+          <local:MyTextButton Margin="5,20,5,12"
+                              HorizontalAlignment="Center"
+                              Foreground="{DynamicResource ColorBrush1}"
+                              Cursor="Hand"
+                              Content="{cave}"
+                              ToolTip="反复点击这里可以看到PCL作者与各位沙雕网友乱七八糟的留言！"
+                              EventType="刷新主页"
+          />
+          <local:MyListItem   Margin="-2,0,0,0"
+                              Logo="https://wiki.connect.qq.com/wp-content/uploads/2013/10/03_qq_symbol-1-250x300.png"
+                              Title="QQ群聊"
+                              Info="加入QQ群聊, 与其他玩家闲聊吹水, 使用机器人查询等功能!"
+                              EventType="打开网页"
+                              ToolTip="点击加入QQ群聊"
+                              EventData="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=&amp;group_code=948466807"
+                              Type="Clickable"
+          />
+          <local:MyListItem   Margin="-2,0,0,0"
+                              Logo="https://pic1.imgdb.cn/item/6a2abd3efdb1c84b84010e0a.webp"
+                              Title="Oopz开黑群组"
+                              Info="在这里与好友开黑聊天, 及时收看最新公告!"
+                              EventType="打开网页"
+                              ToolTip="点击加入Oopz群组"
+                              EventData="https://oopz.cn/i/fV7oZs"
+                              Type="Clickable"
+          />
+     </StackPanel>
+</local:MyCard>
+<local:MyCard Title="常见问题" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="若您自行安装模组/材质光影包被反作弊拦截, 请联系群内管理员添加白名单, 避免因为多次加入服务器而被自动封禁! " />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                    Text="若你遇到无法加入服务器, 客户端启动失败, 反作弊未生效的问题请查看服务器文档第三部分:加入服务器中的常见问题区域. 若仍无法解决请联系服务器管理员" />
+          <local:MyListItem   Margin="-2,0,0,0"
+                              Logo="https://gd-hbimg.huaban.com/5e4893ae2327309a8dd22485b86cfa92067f0f6170f8-zSukNY_fw658"
+                              Title="点此打开服务器文档"
+                              Info="在文档中查看服务器规则与玩法详解, 了解如何安装客户端, 排查常见问题!"
+                              EventType="打开网页"
+                              ToolTip="点击打开服务器文档"
+                              EventData="https://docs.qq.com/doc/DZGpCeHV4YW5QZVFm"
+                              Type="Clickable"
+          />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="更新日志: 梦时镜1.21.11客户端 [v1.1]" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="本次更新着重优化了客户端的安装难度, 提升玩家游玩稳定性. 适配最新反作弊并尽可能减少误报" />
+          <local:MyListItem   Margin="-2,0,0,0"
+                              Logo="https://wiki.connect.qq.com/wp-content/uploads/2013/10/03_qq_symbol-1-250x300.png"
+                              Title="点此加群下载客户端"
+                              Info="查看QQ群文件以更新客户端"
+                              EventType="打开网页"
+                              ToolTip="点击加入QQ群聊"
+                              EventData="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=&amp;group_code=948466807"
+                              Type="Clickable"
+          />
+    </StackPanel>
+</local:MyCard>
