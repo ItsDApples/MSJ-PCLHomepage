@@ -6,8 +6,8 @@
                          FontSize="20"
                          Text="欢迎游玩梦时镜MC社区!"
           />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" HorizontalAlignment="Center"
-                    Text="愿你有美好的一天!" />
+          <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" HorizontalAlignment="Center"
+                     Text="愿你有美好的一天!" />
           <local:MyListItem   Margin="-2,0,0,0"
                               Logo="https://wiki.connect.qq.com/wp-content/uploads/2013/10/03_qq_symbol-1-250x300.png"
                               Title="QQ群聊"
